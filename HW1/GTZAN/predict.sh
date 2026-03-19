@@ -1,0 +1,11 @@
+python predict.py \
+  --csv_path [your csv dataset list path] \
+  --audio_root [your audio file dataset path] \
+  --ckpt_path [your best checkpoint file path] \
+  --out_csv [your student ID]_submission.csv \
+  --hidden_dim 128 \
+  --num_layers 2 \
+  --dropout 0.1 \
+  --timeseries_length 128 \
+  --hop_length 512 \
+  --target_sr 0

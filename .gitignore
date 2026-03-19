@@ -11,8 +11,9 @@ venv/
 .ipynb_checkpoints/
 
 # Dataset / large files
-GTZAN/genres/
-GTZAN.zip
+HW1/GTZAN/genres/
+HW1/GTZAN.zip
+.DS_Store
 
 # Optional: ignore all audio except sample_audio if needed
-# GTZAN/**/*.au
+HW1/GTZAN/**/*.au

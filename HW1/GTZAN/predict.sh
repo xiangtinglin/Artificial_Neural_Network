@@ -1,9 +1,11 @@
+timestamp=$(date +%Y%m%d%H%M%S)
+
 python predict.py \
-  --csv_path [your csv dataset list path] \
-  --audio_root [your audio file dataset path] \
-  --ckpt_path [your best checkpoint file path] \
-  --out_csv [your student ID]_submission.csv \
-  --hidden_dim 128 \
+  --csv_path /share/nas165/xiangtinglin/Project/Lesson/114-2/Artificial_Neural_Network/HW1/GTZAN/gtzan.csv \
+  --audio_root /share/nas165/xiangtinglin/Project/Lesson/114-2/Artificial_Neural_Network/HW1/GTZAN/genres \
+  --ckpt_path /share/nas165/xiangtinglin/Project/Lesson/114-2/Artificial_Neural_Network/HW1/GTZAN/checkpoints_train/checkpoint_best.pt \
+  --out_csv /share/nas165/xiangtinglin/Project/Lesson/114-2/Artificial_Neural_Network/HW1/GTZAN/checkpoints_train/61347114S_submission_${timestamp}.csv \
+  --hidden_dim 256 \
   --num_layers 2 \
   --dropout 0.1 \
   --timeseries_length 128 \

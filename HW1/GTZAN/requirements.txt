@@ -6,3 +6,5 @@ soundfile
 scipy
 numba
 audioread
+tqdm
+panns-inference

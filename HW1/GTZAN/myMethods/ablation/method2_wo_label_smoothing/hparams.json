@@ -1,0 +1,22 @@
+{
+  "backend": "panns_embed",
+  "sample_rate": 32000,
+  "crop_seconds": 10.0,
+  "train_crops": 12,
+  "val_crops": 9,
+  "crop_mode_train": "random",
+  "crop_mode_eval": "uniform",
+  "panns_checkpoint": "/share/nas165/xiangtinglin/Project/Lesson/114-2/Artificial_Neural_Network/HW1/GTZAN/myMethods/2_PANNs/Cnn14_mAP=0.431.pth",
+  "embed_dim": 2048,
+  "clf_hidden": 512,
+  "clf_dropout": 0.4,
+  "batch_size": 256,
+  "epochs": 80,
+  "lr": 0.0002,
+  "weight_decay": 0.01,
+  "label_smoothing": 0.0,
+  "mixup_alpha": 0.4,
+  "seed": 42,
+  "num_workers": 0,
+  "num_classes": 10
+}

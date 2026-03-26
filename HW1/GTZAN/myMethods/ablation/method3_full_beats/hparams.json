@@ -1,0 +1,23 @@
+{
+  "backend": "beats_embed",
+  "sample_rate": 16000,
+  "crop_seconds": 10.0,
+  "train_crops": 12,
+  "val_crops": 9,
+  "crop_mode_train": "random",
+  "crop_mode_eval": "uniform",
+  "beats_checkpoint": "/share/nas165/xiangtinglin/Project/Lesson/114-2/Artificial_Neural_Network/HW1/GTZAN/myMethods/3_BEATs/pretrained/BEATs_iter3_plus_AS2M.pt",
+  "beats_repo_dir": "/share/nas165/xiangtinglin/Project/Lesson/114-2/Artificial_Neural_Network/HW1/GTZAN/myMethods/3_BEATs/beats",
+  "embed_dim": 1536,
+  "clf_hidden": 1024,
+  "clf_dropout": 0.2,
+  "batch_size": 128,
+  "epochs": 80,
+  "lr": 0.0002,
+  "weight_decay": 0.01,
+  "label_smoothing": 0.05,
+  "mixup_alpha": 0.1,
+  "seed": 42,
+  "num_workers": 0,
+  "num_classes": 10
+}

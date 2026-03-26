@@ -1,0 +1,112 @@
+[
+  {
+    "name": "method1_baseline",
+    "method": "method1",
+    "tta_crops_eval": 1,
+    "accuracy": 0.57,
+    "macro_f1": 0.54985823155173,
+    "weighted_f1": 0.5521724719037413,
+    "macro_precision": 0.6267732267732268,
+    "macro_recall": 0.5834992784992785
+  },
+  {
+    "name": "method2_full_panns",
+    "method": "method2",
+    "tta_crops_eval": 21,
+    "accuracy": 0.91,
+    "macro_f1": 0.9047902971591126,
+    "weighted_f1": 0.9094507746126935,
+    "macro_precision": 0.9153646353646355,
+    "macro_recall": 0.9133910533910534
+  },
+  {
+    "name": "method2_wo_mixup",
+    "method": "method2",
+    "tta_crops_eval": 21,
+    "accuracy": 0.89,
+    "macro_f1": 0.8905626056090453,
+    "weighted_f1": 0.8918780775468081,
+    "macro_precision": 0.9015873015873016,
+    "macro_recall": 0.8976334776334776
+  },
+  {
+    "name": "method2_wo_label_smoothing",
+    "method": "method2",
+    "tta_crops_eval": 21,
+    "accuracy": 0.9,
+    "macro_f1": 0.8904568674309461,
+    "weighted_f1": 0.9017490202267285,
+    "macro_precision": 0.9060897435897436,
+    "macro_recall": 0.8956962481962482
+  },
+  {
+    "name": "method2_wo_multicrop",
+    "method": "method2",
+    "tta_crops_eval": 1,
+    "accuracy": 0.85,
+    "macro_f1": 0.8438251153731029,
+    "weighted_f1": 0.8531299594798046,
+    "macro_precision": 0.8720687645687646,
+    "macro_recall": 0.8517568542568542
+  },
+  {
+    "name": "method2_wo_tta",
+    "method": "method2",
+    "tta_crops_eval": 1,
+    "accuracy": 0.86,
+    "macro_f1": 0.8460988880400645,
+    "weighted_f1": 0.8615042186571599,
+    "macro_precision": 0.8627350427350426,
+    "macro_recall": 0.8590620490620491
+  },
+  {
+    "name": "method3_full_beats",
+    "method": "method3",
+    "tta_crops_eval": 21,
+    "accuracy": 0.92,
+    "macro_f1": 0.918121935272965,
+    "weighted_f1": 0.923933965348153,
+    "macro_precision": 0.9269230769230768,
+    "macro_recall": 0.9287121212121212
+  },
+  {
+    "name": "method3_wo_mixup",
+    "method": "method3",
+    "tta_crops_eval": 21,
+    "accuracy": 0.93,
+    "macro_f1": 0.9297115467714379,
+    "weighted_f1": 0.9305355098621885,
+    "macro_precision": 0.9346428571428571,
+    "macro_recall": 0.9387878787878788
+  },
+  {
+    "name": "method3_wo_label_smoothing",
+    "method": "method3",
+    "tta_crops_eval": 21,
+    "accuracy": 0.93,
+    "macro_f1": 0.9268165165537532,
+    "weighted_f1": 0.9324758372693351,
+    "macro_precision": 0.9335897435897434,
+    "macro_recall": 0.9353787878787878
+  },
+  {
+    "name": "method3_wo_multicrop",
+    "method": "method3",
+    "tta_crops_eval": 1,
+    "accuracy": 0.92,
+    "macro_f1": 0.919498746867168,
+    "weighted_f1": 0.9233107769423559,
+    "macro_precision": 0.928095238095238,
+    "macro_recall": 0.9287121212121212
+  },
+  {
+    "name": "method3_wo_tta",
+    "method": "method3",
+    "tta_crops_eval": 1,
+    "accuracy": 0.92,
+    "macro_f1": 0.9141242088614454,
+    "weighted_f1": 0.9240912218847198,
+    "macro_precision": 0.9269230769230768,
+    "macro_recall": 0.9210930735930736
+  }
+]

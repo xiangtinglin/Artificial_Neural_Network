@@ -17,3 +17,5 @@ HW1/GTZAN.zip
 
 # Optional: ignore all audio except sample_audio if needed
 HW1/GTZAN/**/*.au
+*.pth
+*.pt

@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset / large files
+HW1/GTZAN/genres/
+HW1/GTZAN.zip
+.DS_Store
+
+# Optional: ignore all audio except sample_audio if needed
+HW1/GTZAN/**/*.au
+*.pth
+*.pt
